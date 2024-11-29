@@ -1,0 +1,6 @@
+.idea/
+.gradle/
+build/
+README.md
+HELP.md
+Dockerfile

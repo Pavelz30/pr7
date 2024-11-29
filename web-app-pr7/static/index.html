@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4 text-center">Products</h1>
+        <nav class="mb-4">
+            <a href="index.html" class="btn btn-primary">Home</a>
+            <a href="add-product.html" class="btn btn-secondary">Add Product</a>
+            <a href="categories.html" class="btn btn-secondary">Categories</a>
+            <a href="add-category.html" class="btn btn-secondary">Add Category</a>
+        </nav>
+
+        <button id="fetchProducts" class="btn btn-success mb-3">Fetch Products</button>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Category ID</th>
+                </tr>
+            </thead>
+            <tbody id="productsList">
+                <!-- Products will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

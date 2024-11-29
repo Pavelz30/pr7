@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4 text-center">Add New Category</h1>
+        <nav class="mb-4">
+            <a href="index.html" class="btn btn-secondary">Home</a>
+            <a href="add-product.html" class="btn btn-secondary">Add Product</a>
+            <a href="categories.html" class="btn btn-secondary">Categories</a>
+            <a href="add-category.html" class="btn btn-primary">Add Category</a>
+        </nav>
+
+        <form id="categoryForm" class="card p-4 shadow">
+            <div class="mb-3">
+                <label for="categoryName" class="form-label">Name</label>
+                <input type="text" id="categoryName" class="form-control" placeholder="Enter categiry name" required>
+            </div>
+            <button type="submit" class="btn btn-success">Add Category</button>
+        </form>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
